@@ -24,6 +24,6 @@ All files should be placed in C:/Tasm folder.
 
 ## How command Line arguments works:
 ### We can also pass argument to program using -h, -r and -p. like:
-o	project -h (will display help)
-o	project -r (display the data in reverse order)
-o	project -p (display the data with paging feature)
+#### project -h (will display help)
+#### project -r (display the data in reverse order)
+#### project -p (display the data with paging feature)
