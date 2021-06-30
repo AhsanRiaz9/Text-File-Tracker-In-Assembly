@@ -1,0 +1,46 @@
+### Programming in Assembly language ###
+
+## Project Requirement:
+
+Write a program (in Assembly language -> GUI Turbo Assembler) that allows the user to use the arguments specified on the command line when running the program to perform the selected function for the specified input.
+If the program run with '-h' switch, the program must display information about the program and its use.
+In the program, use the macro with the parameter, as well as the appropriate OS calls (BIOS) to set the cursor, list the string, clear the screen, work with files, etc. Macro definitions must be in a separate file. 
+The program must correctly process files up to 64 kB in length. When reading, use an array of a suitable size (buffer), while the entire size of the array will be moved from the file to the memory repeatedly (except for the last reading).
+((*This text has been translated from another language. If you don't understand something, write me a message.*))
+
+
+## Program Function:
+Read all sentences from the input and list its order number before each sentence. (see below)
+
+
+## EXAMPLE:
+INPUT:
+This is my first message. Now you read my second message. This is third sentence. Now Im writing text.
+
+OUTPUT:
+1.This is my first message. 2.Now you read my second message. 3.This is third sentence. 4.Now Im writing text.
+
+###################
+
+
+## Extra Features:
+Here is a list of the following extra additions to the my program function. It is optional and you must choose at least 5 of them suitable for my program. Please look at them and write (five) which ones would fit into my program.
+
+1. After entering the '-p' command option, the output will be paged, ie after the screen is full, the key will be pressed to continue.
+2. Paging in both directions, ie backwards.
+3. When paging, the serial number of the currently displayed page is displayed, as well as the total number of pages and the percentage of the output already displayed.
+4. When paging, the current date and time are always displayed.
+5. When paging, the absolute path of the displayed (processed) input file is always displayed. If it is longer than a line, it will be suitably shortened.
+6. For a paged statement, it will be possible to highlight the string entered from the keyboard in the currently displayed text.
+7. If input files larger than 64 kB are processed correctly.
+8. The '-r' command option causes the listing to be in reverse order (from the end).
+9. If multiple input files can be specified.
+10. the assigned task will be implemented as an external procedure (compiled separately and linked to the final program).
+11. (meaningful) use of string instructions (MOVS, CMPS, STOS, etc.).
+
+Please select 5 of the options that can be used in my program...
+
+
+8. The '-r' command option causes the listing to be in reverse order (from the end).
+10. the assigned task will be implemented as an external procedure (compiled separately and linked to the final program).
+11. (meaningful) use of string instructions (MOVS, CMPS, STOS, etc.).
