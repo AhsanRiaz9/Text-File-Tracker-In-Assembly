@@ -1,7 +1,7 @@
 # Project Specification:
-=======
+
 # Project Specification:
->>>>>>> b0b523bcf58b88a156e0c1127d63f6eb5ee2ff7f
+
 We must have DOSBox 8086 Assembler to run this project.
 We have to download and install DOSBox.
 ## Download link of DOSBox:
