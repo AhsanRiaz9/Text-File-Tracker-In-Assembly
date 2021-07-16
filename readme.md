@@ -27,3 +27,5 @@ All files should be placed in C:/Tasm folder.
 #### project -h (will display help)
 #### project -r (display the data in reverse order)
 #### project -p (display the data with paging feature)
+
+# Note: lib.asm is used in project asm, I develeped myself this lib.asm file which seperate the functionality of procedures and macros in seperate files.
